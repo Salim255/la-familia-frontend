@@ -32,7 +32,7 @@ jobs:
           node-version: '17.x'
       - run: npm install
       - run: npm run format:check
-      - run: run test -- --coverage
+      - run: ng test -- --coverage
         env:
           CI: true
       - name: Upload artifacts
