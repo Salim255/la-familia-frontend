@@ -9,7 +9,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "format:check": "prettier --check \"**/*.{js, jsx, yml, yaml, json, md}\"",
+    "format": "prettier --write \"**/*.{js, jsx, yml, yaml, json, md}\""
   },
   "private": true,
   "dependencies": {
