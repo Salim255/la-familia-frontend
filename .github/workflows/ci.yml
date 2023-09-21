@@ -29,10 +29,10 @@ jobs:
       - name: Use NodeJs
         uses: actions/setup-node@v1
         with:
-          node-version: "17.x"
+          node-version: '17.x'
       - run: npm install
       - run: npm run format:check
-      - run: ng test -- --coverage
+      - run: run test -- --coverage
         env:
           CI: true
       - name: Upload artifacts
