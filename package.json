@@ -11,7 +11,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "format:check": "prettier --check \"**/*.{js, jsx, yml, yaml, json,ts, md}\"",
-    "format": "prettier --write \"**/*.{js, jsx, yml, yaml, json, md}\""
+    "format": "prettier --write \"**/*.{js, jsx, yml, yaml, json,ts, md}\""
   },
   "private": true,
   "dependencies": {

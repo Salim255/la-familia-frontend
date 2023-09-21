@@ -4,3 +4,10 @@ node_modules
 package-lock.json
 commitlint.config.js
 karma.conf.js
+capacitor.config.ts
+zone-flags.ts
+polyfills.ts
+main.ts
+environment.ts
+environment.prod.ts
+test.ts
