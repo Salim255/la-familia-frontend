@@ -47,6 +47,7 @@ jobs:
             package.json
   deploy:
     ## Needs determine weather the job run parallel or not
+    ## Some comments
     needs: build
     runs-on: ubuntu-latest
     steps:
